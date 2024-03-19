@@ -1,0 +1,27 @@
+CREATE TABLE articleEntity (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    imageURL TEXT NOT NULL,
+    contents TEXT NOT NULL
+);
+
+
+
+getAllArticles:
+SELECT *
+FROM articleEntity;
+
+
+getSpecificArticles:
+SELECT *
+FROM articleEntity
+WHERE title LIKE ('% ' || :text)
+OR title LIKE (:text || ' %');
+
+insertArticles:
+INSERT OR REPLACE
+INTO articleEntity
+VALUES (?,?,?,?);
+
+deleteAllArticles:
+DELETE FROM articleEntity;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- format: #RRGGBB[AA] or 0xRRGGBB[AA] or RRGGBB[AA] where [AA] - optional -->
+    <color name="primaryColor">#9a7738</color>
+    <color name="p_color">#656565</color>
+    <color name="p_dark_color">#444444</color>
+    <color name="h2_color">#644d45</color>
+    <color name="brown_color">#735f57</color>
+    <color name="blackish_color">#161616</color>
+
+
+    <!-- Switch Colors -->
+    <color name="thumbColor">#e9e9e9</color>
+    <color name="trackColor">#bbbbbb</color>
+    <color name ="colorTest">#EBE9EB</color>
+
+    <!-- Button Colors -->
+    <color name="btn_green_color">#2ec3aa</color>
+    <color name="btn_dark_green">#3b9f8a</color>
+    <color name="dark_light_color">#2dc4a7</color>
+
+    <!-- Background Colors    -->
+    <color name ="gray_bg">#868686</color>
+
+    <!-- Main Colors -->
+    <color name = "pink_main_color">#dabeb0</color>
+    <color name = "green_main_color">#78866B</color>
+    <color name = "sand_main_color">#d4cfc7</color>
+    <color name = "gold_main_color">#ad8953</color>
+    <color name = "gray_main_color">#D4CFC7</color>
+    <color name = "malta_main_color">#BEAD98</color>
+
+
+    <!-- Logo Colors    -->
+    <color name ="logo_color">#d1ac5b</color>
+
+    <color name="random_color">#3b9f8c</color>
+
+
+</resources>

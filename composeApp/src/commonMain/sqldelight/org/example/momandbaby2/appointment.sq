@@ -1,0 +1,32 @@
+import kotlin.Int;
+
+CREATE TABLE appointmentEntity (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    typeOfAppointment TEXT NOT NULL,
+    location TEXT NOT NULL,
+    healthCareProfession TEXT NOT NULL,
+    date INTEGER NOT NULL,
+    hours INTEGER NOT NULL,
+    minutes INTEGER NOT NULL,
+    notes TEXT NOT NULL
+
+);
+
+getAllAppointments:
+SELECT *
+FROM appointmentEntity;
+
+
+insertAppointment:
+INSERT OR REPLACE
+INTO appointmentEntity
+VALUES(?,?,?,?,?,?,?,?);
+
+
+removeAllAppointments:
+DELETE FROM appointmentEntity;
+
+deleteAppointmentById:
+DELETE FROM appointmentEntity
+WHERE id = :id;
+
